@@ -21,6 +21,7 @@
            revision="refs/heads/thirteen" />
 
   <!-- Rootdir -->
+  <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="LineageOS" />
 
   <!-- Device -->
@@ -38,13 +39,18 @@
   <project path="external/erofs-utils" name="YAAP/external_erofs-utils" groups="pdk" remote="YAAP" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="pdk" remote="LineageOS" />
   <project path="external/f2fs-tools" name="YAAP/external_f2fs-tools" groups="pdk" remote="YAAP" />
+  <project path="external/giflib" name="LineageOS/android_external_giflib" groups="pdk,qcom_msm8x26" remote="LineageOS" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="LineageOS" />
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="LineageOS" />
   <project path="external/jemalloc_new" name="YAAP/external_jemalloc_new" groups="pdk" remote="YAAP" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="LineageOS" />
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,libxml2" remote="LineageOS" />
   <project path="external/lz4" name="YAAP/external_lz4" groups="pdk" remote="YAAP" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="LineageOS" />
+  <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" remote="LineageOS" />
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk" remote="LineageOS" />
+  <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" remote="LineageOS" />
+  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="LineageOS" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="LineageOS" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
   <project path="external/zstd" name="LineageOS/android_external_zstd" groups="pdk" remote="LineageOS" />
@@ -78,6 +84,10 @@
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" remote="LineageOS" />
 
   <!-- Packages -->
+  <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="LineageOS" />
+  <project path="packages/modules/DnsResolver" name="LineageOS/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/modules/StatsD" name="LineageOS/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="packages/modules/Virtualization" name="LineageOS/android_packages_modules_Virtualization" groups="pdk" remote="LineageOS" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
@@ -87,8 +97,10 @@
 
   <!-- System -->
   <project path="system/apex" name="LineageOS/android_system_apex" groups="pdk" remote="LineageOS" />
+  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" remote="LineageOS" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="LineageOS" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="LineageOS" />
+  <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" remote="LineageOS" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="LineageOS" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="LineageOS" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="LineageOS" />
@@ -98,6 +110,7 @@
   <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="LineageOS" />
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" remote="LineageOS" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="LineageOS" />
+  <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" remote="LineageOS" />
   
   <!-- Begin Extras -->
 
